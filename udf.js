@@ -1,4 +1,4 @@
-function transform(line) {
+function dataflow(line) {
     var values = line.split(',');
     var obj = new Object();
     obj.id = values[0];
